@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+:root{
+    --primario: rgb(0, 0, 0);
+    --secundario: #e18412;
+    --terciário: #e18e12;
+    --textoConteudo:
+    rgb(253, 253, 253);
+}
+
 body{
     width: 100vw;
 }
@@ -18,16 +26,16 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(0, 0, 0);
+    background-color: var(--primario);
 }
 
 .container h1{
     font-size: 80px;
-    color: #e18412;
+    color: var(--secundario);
 }
 
 .imgs{
-    background-color: #e18e12;
+    background-color: var(--secundario);
     display: flex;
     justify-content: center;
     margin-top: 5px;
@@ -38,7 +46,7 @@ body{
     width: 250px;
     height: 250px;
     border-radius: 100%;
-    border: 10px solid #000000;
+    border: 10px solid var(--primario);
     margin-left: 10px;
 }
 
@@ -57,7 +65,7 @@ body{
 
 .precos h2{
     font-size: 60px;
-    background-color:  #e18e12;
+    background-color: var(--terciário);
     border-radius: 10px;
     padding: 7px;
 }
@@ -69,11 +77,11 @@ body{
 .precos-principal p{
     font-size: 25px;
     margin-top: 20px;
-    color: rgb(253, 253, 253);
+    color: var(--textoConteudo);
 }
 
 .precos-principal span{
-    color: #e18e12;
+    color: var(--secundario);
 }
 
 .cont-food{
@@ -84,7 +92,7 @@ body{
 
 .cont-food h2{
     font-size: 50px;
-    background-color: #e18e12;
+    background-color: var(--terciário);
     border-radius: 10px;
     padding: 7px;
     text-align: center;
@@ -106,18 +114,18 @@ body{
 
 .outros-pratos p{
     font-size: 24px;
-    color: rgb(255, 255, 255);
+    color: var(--textoConteudo);
     margin: 0px;
 }
 
 .outros-pratos span{
-    color:  #e18e12;
+    color:  var(--secundario);
 }
 
 .footer{
     display: flex;
     justify-content: space-between;
-    background-color: #e18e12;
+    background-color: var(--secundario);
     height: 100px;
     font-size: 30px;
     align-items: center;
