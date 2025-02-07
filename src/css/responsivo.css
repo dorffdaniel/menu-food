@@ -1,0 +1,58 @@
+@media(min-width:320px) and (max-width: 480px){
+    .container h1{
+        margin: 10px 0px;
+        font-size: 2em;
+        color: #b6a187;
+    }
+
+    .imgs{
+        padding: 0.2em;
+    } 
+
+    .imgs img{
+        width: 10em;
+        height: 5em;
+        border: 3px solid #000000;
+    }
+
+    .imgs .img-central{
+        width: 10em;
+        height: 6em;
+    }
+
+    .conteudo{
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .precos{
+        gap: 0.5em;
+    }
+
+    .precos h2{
+        font-size: 1em;
+        padding: 0.5em;
+        margin: 0 1em 1em 1em;
+    }
+
+    .precos-principal p, .outros-pratos p{
+        font-size: 0.7em;
+        margin: 0.4em;
+    }
+    
+    .cont-food h2{
+        font-size: 1em;
+        margin: 0.8em 0;
+    }
+
+    .footer{
+        font-size: 1em;
+        padding: 1em 5em;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        gap: 0.5em;
+    }
+
+}
